@@ -4,10 +4,20 @@ public class User {
     private  int userId;
     private String userName;
     private String userPassword;
+    private String userEmailId;
 
     public void setUserId(int userId){
         this.userId=userId;
     }
+
+    public String getUserEmailId() {
+        return userEmailId;
+    }
+
+    public void setUserEmailId(String userEmailId) {
+        this.userEmailId = userEmailId;
+    }
+
     public int getUserId(){
         return  userId;
     }
